@@ -1,0 +1,450 @@
+header {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: url("NODE_files/image1.jpg") center/cover no-repeat;
+  height: 500px;
+  /* Adjust the height as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* cta button */
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0150b8;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #2980b9;
+}
+
+/* Banner styles */
+.banner {
+  text-align: center;
+  padding-top: 1rcm;
+}
+
+.banner p {
+  margin: 0;
+}
+
+.heading-text {
+  font-weight: 800;
+  color: #170d0d;
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1.4rem !important;
+}
+
+/* Add your custom styles here */
+
+.card-content-custom {
+  color: navy;
+  font-weight: bold;
+  /* Make the text inside the card bold */
+}
+
+.material-icons-custom {
+  color: navy;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.card {
+  border: 2px solid rgb(42, 42, 188);
+  /* Add a navy blue stroke around each card */
+}
+
+.icon-image {
+  max-width: 50%;
+  /* Ensure the image doesn't exceed the container width */
+  max-height: 50px;
+  /* Adjust the max-height as needed to fit within the card */
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    width: 30% !important;
+    /* Make each card take full width on small screens */
+    margin-bottom: 10px;
+  }
+
+  .card {
+    height: 120px;
+    /* Adjust the height as needed to make the cards square */
+  }
+}
+
+#extra {
+  background-size: cover;
+  background-color: #0c0e29;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-top: -2rem !important;
+  align-items: center;
+  text-align: center;
+}
+
+.extra-box h4 {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.extra-btn {
+  border: none;
+  border-radius: 4px;
+  background-color: #0150b8 !important;
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 20px 8px 20px !important;
+  margin-top: 5px;
+}
+
+#feedback {
+  background-color: #0c0e29;
+  padding-top: 0.5rem;
+  margin-top: 0px !important;
+}
+
+.feedback-heading-text {
+  font-weight: 800;
+  color: #3182ce;
+  font-size: 15px;
+  /* margin-top: 1rem; */
+  text-align: center;
+}
+
+.feedback-box h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* text-shadow: 0px 0px .1px black; */
+}
+
+.feedback-box h6 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#feedback .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feedback-box {
+  text-align: center;
+}
+
+footer {
+  background-color: #0c0e29;
+  color: white;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-text h6 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.social-icons i:hover {
+  color: #42a5f5;
+  /* Change color on hover */
+  font-weight: bold;
+  /* Make the social icons bold on hover */
+}
+
+/* Marquee style*/
+.coin-marquee {
+  -webkit-text-size-adjust: none;
+}
+
+.coin-marquee div {
+  box-sizing: border-box;
+}
+
+.coin-marquee-wrapper {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-top: 1px solid #eff2f5;
+  border-bottom: 1px solid #eff2f5;
+  overflow: hidden;
+}
+
+.coin-marquee-wrapper--dark {
+  background: #171924;
+  border-top: 1px solid #222531;
+  border-bottom: 1px solid #222531;
+}
+
+.coin-marquee-wrapper--dark .coin-marquee-header-signature {
+  border-right: 1px solid #40424e;
+}
+
+.coin-marquee-wrapper--dark .coin-marquee-header-signature__power-by {
+  color: #808a9d;
+}
+
+.coin-marquee-wrapper--dark .coin-marquee-item::after {
+  background-color: #40424e;
+}
+
+.coin-marquee-wrapper--dark .coin-marquee-item-inner {
+  color: #fff;
+}
+
+.coin-marquee-wrapper--dark .coin-marquee-item-symbol {
+  color: #a1a7bb;
+}
+
+.coin-marquee-wrapper--dark
+  .coin-marquee-item
+  .coin-marquee-item--skeleton
+  .coin-marquee-item__icon,
+.coin-marquee-wrapper--dark
+  .coin-marquee-item
+  .coin-marquee-item--skeleton
+  .coin-marquee-item-info__row {
+  background-color: #323546;
+}
+
+.coin-marquee-wrapper--transparent {
+  background: transparent !important;
+}
+
+.coin-marquee-header {
+  float: left;
+  width: 141px;
+}
+
+.coin-marquee-header-signature {
+  overflow: hidden;
+  width: 141px;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  border-right: 1px solid #eff2f5;
+}
+
+.coin-marquee-header-signature svg,
+.coin-marquee-header-signature div {
+  float: left;
+}
+
+.coin-marquee-header-signature svg {
+  height: 18px;
+}
+
+.coin-marquee-header-signature div {
+  height: 17px;
+  display: inline-block;
+  line-height: 18x;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 18px;
+  color: #808a9d;
+}
+
+.coin-marquee-container {
+  display: flex;
+  width: calc(100% - 141px);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.coin-marquee-container__inner {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.coin-marquee-container__inner:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.coin-marquee-item {
+  position: relative;
+  min-width: 220px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+
+.coin-marquee-item:hover,
+.coin-marquee-item:focus {
+  color: inherit;
+}
+
+.coin-marquee-item::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 0;
+  display: inline-block;
+  background-color: #eff2f5;
+  width: 1px;
+  height: 20px;
+}
+
+.coin-marquee-item-inner {
+  padding: 16px 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.coin-marquee-item-inner:hover {
+  color: inherit;
+}
+
+.coin-marquee-item-inner:hover .coin-marquee-item-name {
+  opacity: 0.6;
+}
+
+.coin-marquee-item__icon {
+  margin-right: 8px;
+  display: inline-block;
+  line-height: 1;
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+}
+
+.coin-marquee-item__icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.coin-marquee-item-info {
+  width: 100%;
+}
+
+.coin-marquee-item-info__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1;
+}
+
+.coin-marquee-item-info__row:last-of-type {
+  margin-top: 2px;
+}
+
+.coin-marquee-item-name {
+  margin-right: 12px;
+  transition: 0.1s;
+}
+
+.coin-marquee-item-name,
+.coin-marquee-item-price {
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.coin-marquee-item-symbol {
+  font-size: 11px;
+  color: #58667e;
+  transform-origin: left;
+  transform: scale(0.9);
+}
+
+.coin-marquee-item-changes {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.coin-marquee-item-changes__icon {
+  width: 0;
+  height: 0;
+  position: relative;
+  margin-right: 3px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+
+.coin-marquee-item-changes--up {
+  color: #16c784;
+}
+
+.coin-marquee-item-changes--up .coin-marquee-item-changes__icon {
+  top: -8px;
+  border-bottom: 5px solid #16c784;
+}
+
+.coin-marquee-item-changes--down {
+  color: #ea3943;
+}
+
+.coin-marquee-item-changes--down .coin-marquee-item-changes__icon {
+  top: 10px;
+  border-top: 5px solid #ea3943;
+}
+
+.coin-marquee-item--skeleton .coin-marquee-item__icon {
+  background-color: #eaeff5;
+  border-radius: 50%;
+}
+
+.coin-marquee-item--skeleton .coin-marquee-item-info__row {
+  width: 40px;
+  height: 10px;
+  background-color: #eaeff5;
+}
+
+.coin-marquee-item--skeleton .coin-marquee-item-info__row:first-of-type {
+  width: 80px;
+}
+
+@-webkit-keyframes marquee-scroll {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
